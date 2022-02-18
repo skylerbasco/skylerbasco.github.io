@@ -1254,6 +1254,15 @@ body {
 
  }
 
+ @media screen and (max-width: 500px) {
+    body {
+        background-image: url("https://cdn.glitch.global/db71d6db-0a21-49e6-8756-efa6012adee2/gradient%20background%20(4).jpg");
+        background-color: #202330;
+        background-size: 100%;
+      
+       }
+ }
+
  /* SOCIAL ICONS */
 
 
