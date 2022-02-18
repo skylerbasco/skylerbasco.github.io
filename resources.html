@@ -4,39 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Skyler Basco | Home</title>
     <link rel="stylesheet" href="app.css">
     <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
-
+    <script> 
+        window.onload=function(){
+            const hamburger = document.querySelector(".hamburger");
+            const navMenu = document.querySelector(".nav-menu");
+            
+            hamburger.addEventListener("click", mobileMenu);
+            
+            function mobileMenu() {
+                hamburger.classList.toggle("active");
+                navMenu.classList.toggle("active");
+            }
+            }
+            </script>
 </head>
 <body>
-    <header class="navbar-new">
-        <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="fas fa-bars"></i>
-        </span>
-        <p>
-        <a href="index.html" class="logo"><b>Skyler Basco</b></a>
-        <ul class="main-nav" id="js-menu">
-            <li>
-              <a href="index.html" class="nav-links">Home</a>
-               
-            </li>
-            <li>
-                <a href="about.html" class="nav-links">About</a>
-            </li>
-            <li>
-                <a href="videos.html" class="nav-links">Videos</a>
-            </li>
-            <li>
-                <a href="projects.html" class="nav-links">Projects</a>
-            </li>
-            <li>
-                <a href="resources.html" class="nav-links">Resources</a>
-            </li>
-        </ul>
-        </p>
-        
-        </header>
+    <header class="header">
+        <nav class="navbar">
+            <a href="index.html" class="nav-logo">Skyler Basco</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="videos.html" class="nav-link">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resources.html" class="nav-link">Resources</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+</header>
         
     <div class="container">
         <br/>
