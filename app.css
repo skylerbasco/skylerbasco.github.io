@@ -787,6 +787,12 @@ g.social-svg-mask {
     html{
         font-size: 50%;
     }
+
+    .socialsfooter {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+      }
 }    
 
 @media(min-width: 501px) and (max-width: 768px){
